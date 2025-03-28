@@ -21,8 +21,16 @@ h1 {
 form {
   display: flex;
   padding: 30px;
+  padding-bottom: 5px;
   margin-right: auto;
+
   border-radius: 10px;
+}
+.example {
+  font-size: 15px;
+  padding-left: 50px;
+  padding-bottom: 30px;
+  opacity: 0.6;
 }
 .ingredients {
   padding: 10px;
@@ -44,6 +52,14 @@ form {
   font-size: 18px;
   line-height: 25px;
   padding: 10px;
+}
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+.blink {
+  animation: blink 1s step-start 0s infinite;
 }
 
 a {
