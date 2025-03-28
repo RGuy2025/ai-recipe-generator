@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="src/style.css">
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
   <title>Recipe Generator</title>
 </head>
 
@@ -14,13 +15,13 @@
       <h1>Stressed Mom Recipe Generator</h1>
     </header>
     <main>
-      <form>
+      <form id="recipe-generator">
         <input type="text" placeholder="Enter the main ingredient you want to use" autofocus required
           class="ingredients" />
         <input type="submit" class="button" />
       </form>
-      <div class="recipe">
-        The recipe will go here
+      <div class="recipe" id="recipe">
+       
       </div>
     </main>
     <footer>This AI project was coded by Rachel Guyett and is <a href="https://github.com/RGuy2025/ai-recipe-generator"
